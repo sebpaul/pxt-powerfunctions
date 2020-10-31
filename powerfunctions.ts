@@ -199,7 +199,7 @@ namespace powerfunctions {
     }
   }
 
-  namespace message {
+  export namespace message {
     function mapValueToPwmElseFloat(value: number): number {
       switch (value) {
         case 7:
